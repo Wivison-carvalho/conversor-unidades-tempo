@@ -24,3 +24,5 @@ Este arquivo apresenta testes manuais realizados no projeto.
 ## Observação
 
 Os testes foram realizados manualmente abrindo o arquivo `index.html` no navegador.
+
+- Teste rápido: Digite 60 na caixa de segundos para validar se a saída retorna 1 minuto.
