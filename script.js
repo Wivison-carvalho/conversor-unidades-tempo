@@ -1,3 +1,5 @@
+// Código desenvolvido pelo grupo para conversão de tempo
+
 const units = {
   segundo: {
     label: "Segundo",
