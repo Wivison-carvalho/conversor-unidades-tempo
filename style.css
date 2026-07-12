@@ -82,4 +82,11 @@ button:hover {
   .buttons {
     flex-direction: column;
   }
+  
+.footer {
+  text-align: center;
+  margin: 24px 16px;
+  color: #555555;
+  font-size: 14px;
+}
 }
