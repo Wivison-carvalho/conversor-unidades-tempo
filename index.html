@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Unidades de Tempo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Conversor de Unidades de Tempo</h1>
+
+      <label for="value">Valor</label>
+      <input id="value" type="text" inputmode="decimal" placeholder="Digite um valor">
+
+      <label for="from">De</label>
+      <select id="from">
+        <option value="segundo">Segundo</option>
+        <option value="minuto">Minuto</option>
+        <option value="hora">Hora</option>
+        <option value="dia">Dia</option>
+        <option value="semana">Semana</option>
+      </select>
+
+      <label for="to">Para</label>
+      <select id="to">
+        <option value="segundo">Segundo</option>
+        <option value="minuto" selected>Minuto</option>
+        <option value="hora">Hora</option>
+        <option value="dia">Dia</option>
+        <option value="semana">Semana</option>
+      </select>
+
+      <div class="buttons">
+        <button id="convertButton" type="button">Converter</button>
+        <button id="clearButton" type="button">Limpar</button>
+      </div>
+
+      <p id="result" class="result"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
