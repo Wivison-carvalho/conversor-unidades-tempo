@@ -83,3 +83,8 @@ function clearForm() {
 
 convertButton.addEventListener("click", convert);
 clearButton.addEventListener("click", clearForm);
+valueInput.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    convert();
+  }
+});
