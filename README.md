@@ -61,3 +61,20 @@ O projeto utiliza duas branches principais:
 - Melhorias na aparência da interface.
 - Ajustes de layout e experiência do usuário.
 - Atualização da identidade visual da aplicação.
+
+---
+
+## Diferença entre as versões
+
+A principal diferença entre as versões do projeto está na estética, conforme solicitado na atividade.
+
+- **v1.0.0:** versão funcional inicial, com interface simples e foco no funcionamento do conversor.
+- **v2.0.0:** versão final, com melhorias visuais, melhor organização da interface e experiência de uso mais agradável.
+
+## Fluxo de trabalho no GitHub
+
+O desenvolvimento do projeto foi realizado utilizando Git e GitHub.
+
+A branch `desenvolvimento` foi utilizada para implementar alterações, melhorias e correções.
+
+A branch `main` foi utilizada para armazenar as versões oficiais do projeto por meio de merges e releases.
