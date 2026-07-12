@@ -79,6 +79,7 @@ function clearForm() {
   toSelect.value = "minuto";
   result.className = "result";
   result.textContent = "";
+  valueInput.focus();
 }
 
 convertButton.addEventListener("click", convert);
